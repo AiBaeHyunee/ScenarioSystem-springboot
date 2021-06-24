@@ -30,9 +30,9 @@ class SpringScenarioSystemApplicationTests {
 		List<User> userList = userRepo.findUserByName("bobox");
 		User bobox = userList.get(0);
 
-//		assertTrue(customerList.size() == 2);
+//		assertTrue(userList.size() == 2);
 		assertEquals(bobox.getUser_name(),"bobox");
-//		assertEquals(bae.getSeqNumber(),"111111");
+//		assertEquals(bobox.getSeqNumber(),"111111");
 
     }
 
